@@ -1,8 +1,8 @@
 body { background-color: #e5f1a8;
     font-family: Arial, sans-serif;
     color: navy;
-    text-shadow: 3px 3px 3px  navy;
-}
+    text-shadow: 1px 1px 1px #f5fffa;  }
+
 h1{background-color: navy; color: floralwhite;
     padding: 30px;
     margin-top: 0;
@@ -16,18 +16,14 @@ video {width:100%; height: auto;
 audio{  width: 540px;
         margin-left: 28%;}
 
-iframe{margin-left: 28%;
-        }
+iframe{margin-left: 28%;  }
 
 h2{text-align: center;}
 
 p {text-align: center;}
 
-main {
-    padding: 5px;
-}
-
-ul li{list-style-type: none;display: inline;}
+ul li{list-style-type: none;
+    display: inline;}
 ul li img {
     margin-left: 5%;
     padding: 10px 8px 25px 8px;
@@ -39,12 +35,17 @@ ul li img {
 .p1 { z-index: 1;
     transform: rotate(-3deg);
     }
-.p2 {z-index: 5;
+.p2 {z-index: 2;
    transform: rotate(3deg);
     }
+.p3 {z-index:3;
+    transform: rotate(-3deg);}
+.p4 {z-index:4;
+    transform: rotate(3deg);}
 
-footer {background-color: navy; color: floralwhite;
+footer {background-color: navy; color: white;
     padding: 15px 5px;
     font-size: 0.8em;
     text-align: center;
-    margin-bottom: 0;  }
+    margin-bottom: 0;
+    text-shadow: none;}
